@@ -2,7 +2,7 @@
 Config
 
 - [ ] Hyprland
-- [ ] Hyprpaper
+- [x] Hyprpaper
 - [ ] Waybar
 - [ ] Swaylock
 - [ ] ZSH
