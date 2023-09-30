@@ -73,6 +73,8 @@ window#waybar {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 0px 0px 10px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #custom-media {
