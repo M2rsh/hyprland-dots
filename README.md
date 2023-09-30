@@ -3,7 +3,7 @@ Config
 
 - [ ] Hyprland
 - [x] Hyprpaper
-- [ ] Waybar
+- [x] Waybar
 - [ ] Swaylock
 - [ ] ZSH
 - [ ] Wezterm
