@@ -21,13 +21,14 @@
         "format": "{}",
         "rewrite": {
             "": "No window focused",
-            "Steam": "󰓓 Steam",
+            "Steam": "󰓓  Steam",
             "Mozilla Firefox": "  Mozilla Firefox",
-            "Spotify": " Spotify",
+            "Spotify": "  Spotify",
+            "Lutris": "  Lutris",
             "(.*) — Mozilla Firefox": "  $1",
             "(.*) - VSCodium": "  $1",
             "(.*) - zsh": "  [$1]",
-            "(.*) - Discord": "󰙯 $1"
+            "(.*) - Discord": "󰙯  $1"
         }
     },
     "wlr/workspaces": {
