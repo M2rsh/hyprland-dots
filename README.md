@@ -1,6 +1,8 @@
 # hyprland-dots
 Config
 
+Work in progress
+
 - [ ] Hyprland
 - [x] Hyprpaper
 - [x] Waybar
@@ -9,3 +11,5 @@ Config
 - [ ] Wezterm
 - [ ] Rofi
 - [ ] Dunstify
+
+[Colour scheme](https://github.com/morhetz/gruvbox)
