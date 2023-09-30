@@ -20,6 +20,7 @@
     "hyprland/window": {
         "format": "{}",
         "rewrite": {
+            "": "No window focused",
             "(.*) — Mozilla Firefox": "  $1",
             "Mozilla Firefox": "  Mozilla Firefox $1",
             "Spotify": " Spotify $1",
