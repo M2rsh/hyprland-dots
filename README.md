@@ -9,6 +9,6 @@ Work in progress
 - [ ] ZSH
 - [ ] Wezterm
 - [ ] Rofi
-- [ ] Dunstify
+- [ ] Dunst
 
 [Colour scheme](https://github.com/morhetz/gruvbox)
