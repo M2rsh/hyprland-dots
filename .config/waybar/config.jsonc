@@ -25,6 +25,8 @@
             "Mozilla Firefox": "  Mozilla Firefox",
             "Spotify": "  Spotify",
             "Lutris": "  Lutris",
+            "vim": "  Vim",
+            "nvim": "  Neovim",
             "(.*) — Mozilla Firefox": "  $1",
             "(.*) - VSCodium": "  $1",
             "(.*) - zsh": "  [$1]",
