@@ -21,9 +21,10 @@
         "format": "{}",
         "rewrite": {
             "": "No window focused",
+            "Steam": "󰓓 Steam",
+            "Mozilla Firefox": "  Mozilla Firefox",
+            "Spotify": " Spotify",
             "(.*) — Mozilla Firefox": "  $1",
-            "Mozilla Firefox": "  Mozilla Firefox $1",
-            "Spotify": " Spotify $1",
             "(.*) - VSCodium": "  $1",
             "(.*) - zsh": "  [$1]",
             "(.*) - Discord": "󰙯 $1"
