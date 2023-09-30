@@ -27,6 +27,7 @@
             "Lutris": "  Lutris",
             "vim": "  Vim",
             "nvim": "  Neovim",
+            "zsh": "  zsh",
             "(.*) — Mozilla Firefox": "  $1",
             "(.*) - VSCodium": "  $1",
             "(.*) - zsh": "  [$1]",
