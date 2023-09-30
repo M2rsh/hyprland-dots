@@ -1,5 +1,4 @@
-# hyprland-dots
-Config
+# Hyprland configuration
 
 Work in progress
 
