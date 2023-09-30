@@ -24,7 +24,8 @@
             "Mozilla Firefox": "  Mozilla Firefox $1",
             "Spotify": " Spotify $1",
             "(.*) - VSCodium": "  $1",
-            "(.*) - zsh": "  [$1]"
+            "(.*) - zsh": "  [$1]",
+            "(.*) - Discord": "󰙯 $1"
         }
     },
     "wlr/workspaces": {
