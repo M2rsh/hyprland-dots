@@ -35,7 +35,7 @@ I used [this](https://github.com/linuxmobile/hyprland-dots) config before so it 
 <kbd>SUPER</kbd> + <kbd>.</kbd> | Show rofi emoji
 <kbd>SUPER</kbd> + <kbd>L</kbd> | Show rofi powermenu
 <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>L</kbd> | Swaylock
-<kbd>PRTSC</kbd> | Take a screenshot of current scren
+<kbd>PRTSC</kbd> | Take a screenshot of current screen
 <kbd>SUPER</kbd> + <kbd>PRTSC</kbd> | Take a screenshot of the active window
 <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>S</kbd> | Take a screenshot of an area
 <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>PRTSC</kbd> | Take a screenshot of every screen
