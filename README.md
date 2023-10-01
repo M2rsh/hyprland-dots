@@ -2,7 +2,7 @@
 
 Work in progress
 
-- [ ] Hyprland
+- [ ] Hyprland (Partially done)
 - [x] Hyprpaper
 - [x] Waybar
 - [ ] Swaylock
