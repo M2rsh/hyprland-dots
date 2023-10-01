@@ -1,6 +1,7 @@
 # Hyprland configuration
 
 Work in progress
+** NOT TESTED **
 
 - [ ] Hyprland (Partially done)
 - [x] Hyprpaper
