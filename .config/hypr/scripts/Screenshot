@@ -1,0 +1,42 @@
+#!/bin/bash
+set -o pipefail
+
+SCREENSHOT_DIRECTORY=$HOME/Pictures/Screenshots_test
+
+case $1 in
+    full)
+        argument="output"
+    ;;
+    area)
+        argument="area"
+    ;;
+    active)
+        argument="active"
+    ;;
+    screen)
+        argument="screen"
+    ;;
+    *)
+        argument=$1
+        if [[ -z "$argument" ]]; then
+            argument="No argument"
+        fi
+
+        printf '%s\n' "\
+        '$argument' is not an option.
+
+        Arguments:
+        full    - The entire screen
+        area    - Area of the screen
+        active  - Active window
+        screens - All screens"
+        exit
+esac
+
+if [[ ! -d "$SCREENSHOT_DIRECTORY" ]]; then
+	mkdir -p "$SCREENSHOT_DIRECTORY"
+fi
+
+if ! grimblast copysave $argument "$SCREENSHOT_DIRECTORY/$(date +%s).png" > /dev/null ; then
+    dunstify "Screenshot failed."
+fi
