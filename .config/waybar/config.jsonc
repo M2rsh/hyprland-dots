@@ -28,6 +28,7 @@
             "vim": "  Vim",
             "nvim": "  Neovim",
             "zsh": "  zsh",
+            "VSCodium": "  VSCodium",
             "(.*) — Mozilla Firefox": "  $1",
             "(.*) - VSCodium": "  $1",
             "(.*) - zsh": "  [$1]",

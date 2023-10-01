@@ -1,1 +1,3 @@
+#!/bin/bash
+
 cat /tmp/hypr/$(ls -t /tmp/hypr/ | head -n 1)/hyprland.log
