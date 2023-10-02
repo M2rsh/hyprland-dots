@@ -3,10 +3,10 @@
 
 - [ ] [Hyprland](https://github.com/hyprwm/Hyprland) (Partially done)
 - [x] [Waybar](https://github.com/Alexays/Waybar)
-- [ ] Swaylock
+- [x] [Swaylock-effects](https://github.com/mortie/swaylock-effects)
 - [ ] [ZSH](https://github.com/ohmyzsh/ohmyzsh)
 - [ ] [Wezterm](https://github.com/wez/wezterm)
-- [ ] [Rofi](https://github.com/davatorium/rofi)
+- [ ] [Rofi](https://github.com/davatorium/rofi) (usable)
 - [ ] [Dunst](https://github.com/dunst-project/dunst)
 
 [Colour scheme](https://github.com/morhetz/gruvbox)
