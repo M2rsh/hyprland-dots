@@ -1,4 +1,7 @@
 configuration {
+    drun {
+        display-name: "Filter";
+    }
     font: "'CaskaydiaCove NF', 12";
     case-sensitive: false;
     show-icons: true;

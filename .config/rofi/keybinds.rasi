@@ -1,0 +1,20 @@
+configuration {
+    dmenu {
+        display-name: "Filter";
+    }
+    font: "'CaskaydiaCove NF', 12";
+    case-sensitive: false;
+    show-icons: true;
+}
+
+@theme "gruvbox-dark.rasi"
+
+listview {
+    scrollbar: true;
+    dynamic: false;
+}
+
+window {
+    width: 700px;
+    height: 500px;
+}
