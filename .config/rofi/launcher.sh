@@ -1,1 +1,1 @@
-rofi -show drun
+rofi -show drun -config launcher.rasi

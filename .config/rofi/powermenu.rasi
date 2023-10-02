@@ -1,0 +1,18 @@
+configuration {
+    font: "'CaskaydiaCove NF', 12";
+    case-sensitive: false;
+    show-icons: true;
+}
+
+@theme "gruvbox-dark.rasi"
+
+listview {
+    layout: vertical;
+    scrollbar: false;
+    dynamic: false;
+}
+
+window {
+    width: 150px;
+    height: 130px;
+}

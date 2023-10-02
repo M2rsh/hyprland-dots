@@ -1,6 +1,0 @@
-configuration {
-    font: "'CaskaydiaCove NF', 12";
-    case-sensitive: false;
-    show-icons: true;
-}
-@theme "gruvbox-dark.rasi"
