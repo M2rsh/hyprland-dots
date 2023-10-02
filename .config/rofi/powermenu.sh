@@ -4,7 +4,7 @@ Restart
 Suspend
 Hibernate"
 
-selection=$(echo -e "${options}" | rofi -config powermenu.rasi -dmenu)
+selection=$(echo -e "${options}" | rofi -config ~/.config/rofi/powermenu.rasi -dmenu)
 case "${selection}" in
   "Shutdown")
     systemctl poweroff
