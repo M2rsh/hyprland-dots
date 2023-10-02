@@ -68,4 +68,5 @@ I used [this](https://github.com/linuxmobile/hyprland-dots) config before so it 
 ##### Install command in some time (soon tm)
 - [Waypaper](https://github.com/anufrievroman/waypaper)
 - [swww](https://github.com/Horus645/swww)
+- [rofi-emoji](https://github.com/Mange/rofi-emoji)
 </details>
