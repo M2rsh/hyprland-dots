@@ -1,14 +1,13 @@
 # Hyprland configuration
 <center><b>Work in progress</b></center>
 
-- [ ] Hyprland (Partially done)
-- [x] Hyprpaper
-- [x] Waybar
+- [ ] [Hyprland](https://github.com/hyprwm/Hyprland) (Partially done)
+- [x] [Waybar](https://github.com/Alexays/Waybar)
 - [ ] Swaylock
-- [ ] ZSH
-- [ ] Wezterm
-- [ ] Rofi
-- [ ] Dunst
+- [ ] [ZSH](https://github.com/ohmyzsh/ohmyzsh)
+- [ ] [Wezterm](https://github.com/wez/wezterm)
+- [ ] [Rofi](https://github.com/davatorium/rofi)
+- [ ] [Dunst](https://github.com/dunst-project/dunst)
 
 [Colour scheme](https://github.com/morhetz/gruvbox)
 
@@ -61,4 +60,12 @@ I used [this](https://github.com/linuxmobile/hyprland-dots) config before so it 
 <kbd>SUPER</kbd> + <kbd>SCROLL UP</kbd> | Move to the next workspace
 <kbd>SUPER</kbd> + <kbd>SCROLL DOWN</kbd> | Move to the previous workspace
 </details>
+</details>
+
+<details open>
+<summary>Requirements</summary>
+
+##### Install command in some time (soon tm)
+- [Waypaper](https://github.com/anufrievroman/waypaper)
+- [swww](https://github.com/Horus645/swww)
 </details>
