@@ -37,6 +37,6 @@ if [[ ! -d "$SCREENSHOT_DIRECTORY" ]]; then
 	mkdir -p "$SCREENSHOT_DIRECTORY"
 fi
 
-if ! grimblast copysave $argument "$SCREENSHOT_DIRECTORY/$(date +%s).png" > /dev/null ; then
+if ! grimblast --freeze copysave $argument "$SCREENSHOT_DIRECTORY/$(date +%s).png" > /dev/null ; then
     dunstify "Screenshot failed."
 fi
