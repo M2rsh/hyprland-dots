@@ -5,7 +5,7 @@
 - [x] [Waybar](https://github.com/Alexays/Waybar)
 - [x] [Swaylock-effects](https://github.com/mortie/swaylock-effects)
 - [ ] [ZSH](https://github.com/ohmyzsh/ohmyzsh)
-- [ ] [Wezterm](https://github.com/wez/wezterm)
+- [ ] [Kitty](https://sw.kovidgoyal.net/kitty/)
 - [ ] [Rofi](https://github.com/davatorium/rofi) (usable)
 - [ ] [Dunst](https://github.com/dunst-project/dunst)
 
