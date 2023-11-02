@@ -122,8 +122,6 @@ window#waybar {
     border-radius: 0px;
 }
 
-/* Causes the whole pulseaudio bar to become red on mute idk why
-#pulseaudio.source-muted {
+#pulseaudio.source-muted.microphone {
     background-color: #cc241d;
 }
-*/
