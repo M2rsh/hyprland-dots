@@ -72,13 +72,18 @@ I used [this](https://github.com/linuxmobile/hyprland-dots) config before so it 
 | <kbd>SUPER  Print</kbd> | exec | ~/.local/bin/Screenshot active  | Take a screenshot of your active window |
 | <kbd>SUPER SHIFT S</kbd> | exec | ~/.local/bin/Screenshot area  | Take a screenshot of an area |
 | <kbd>SUPER SHIFT  Print</kbd> | exec | ~/.local/bin/Screenshot screen  | Take a screenshot of every screen |
-| <kbd>SUPER C</kbd> | exec | hyprpicker -a  | Colour picker |
+| <kbd>SUPER SHIFT C</kbd> | exec | hyprpicker -a  | Colour picker |
 
 
 </details>
 
 <details open>
 <summary>Requirements</summary>
+
+Rofi requirements
+```bash
+yay -S rofi-emoji-abi8 rofi-lbonn-wayland-git wtype
+```
 
 ##### Install command in some time (soon tm)
 - [Waypaper](https://github.com/anufrievroman/waypaper)
