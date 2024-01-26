@@ -85,6 +85,9 @@ Rofi requirements
 yay -S rofi-emoji-abi8 rofi-lbonn-wayland-git wtype
 ```
 
+others
+```libcanberra```
+
 ##### Install command in some time (soon tm)
 - [Waypaper](https://github.com/anufrievroman/waypaper)
 - [swww](https://github.com/Horus645/swww)
