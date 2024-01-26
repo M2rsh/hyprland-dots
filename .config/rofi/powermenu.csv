@@ -1,5 +1,5 @@
-󰐥 Power off,systemctl poweroff
-󰜉 Reboot,systemctl reboot
-󰑓 Soft Reboot,systemctl soft-reboot
-󰒲 Suspend,systemctl suspend
-󰤄 Hibernate,systemctl hibernate
+󰐥 Power off,systemctl poweroff || dunstify -a \"Power menu\" \"Power off failed\"
+󰜉 Reboot,systemctl reboot || dunstify -a \"Power menu\" \"Reboot failed\"
+󰑓 Soft Reboot,systemctl soft-reboot || dunstify -a \"Power menu\" \"Soft Reboot failed\"
+󰒲 Suspend,systemctl suspend || dunstify -a \"Power menu\" \"Suspend failed\"
+󰤄 Hibernate,systemctl hibernate || dunstify -a \"Power menu\" \"Hibernation failed\"
