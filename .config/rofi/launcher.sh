@@ -1,1 +1,1 @@
-rofi -show drun -config ~/.config/rofi/launcher.rasi
+rofi -show drun -theme $HOME/.config/rofi/launcher.rasi -hover-select -i

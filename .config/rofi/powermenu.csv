@@ -1,0 +1,5 @@
+󰐥 Power off,systemctl poweroff
+󰜉 Reboot,systemctl reboot
+󰑓 Soft Reboot,systemctl soft-reboot
+󰒲 Suspend,systemctl suspend
+󰤄 Hibernate,systemctl hibernate

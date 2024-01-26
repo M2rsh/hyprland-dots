@@ -1,1 +1,8 @@
-rofi -modi emoji -show emoji -config ~/.config/rofi/emoji.rasi -emoji-format "{emoji}" -emoji-mode insert
+wtype $(rofi \
+    -emoji-format "{emoji}" \
+    -emoji-mode stdout \
+    -show emoji \
+    -hover-select \
+    -i \
+    -theme $HOME/.config/rofi/emoji.rasi)
+

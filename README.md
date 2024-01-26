@@ -6,7 +6,7 @@
 - [x] [Swaylock-effects](https://github.com/mortie/swaylock-effects)
 - [ ] [ZSH](https://github.com/ohmyzsh/ohmyzsh)
 - [x] [Kitty](https://sw.kovidgoyal.net/kitty/)
-- [ ] [Rofi](https://github.com/lbonn/rofi) (usable)
+- [x] [Rofi](https://github.com/lbonn/rofi)
 - [ ] [Dunst](https://github.com/dunst-project/dunst)
 
 [Colour scheme](https://github.com/morhetz/gruvbox)

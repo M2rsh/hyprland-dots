@@ -1,20 +1,10 @@
-configuration {
-    dmenu {
-        display-name: "Filter";
-    }
-    font: "'CaskaydiaCove NF', 12";
-    case-sensitive: false;
-    show-icons: true;
-}
+@import "launcher.rasi"
 
-@theme "gruvbox-dark.rasi"
+configuration {
+  show-icons: false;
+}
 
 listview {
-    scrollbar: true;
-    dynamic: false;
-}
-
-window {
-    width: 700px;
-    height: 500px;
+  columns: 1;
+  lines: 10;
 }

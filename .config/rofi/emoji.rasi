@@ -1,33 +1,21 @@
+@import "launcher.rasi"
+
 configuration {
-    font: "'CaskaydiaCove NF', 12";
-    case-sensitive: false;
-    show-icons: false;
-    me-accept-entry: "MousePrimary";
-    me-select-entry: "";
-}
-@theme "gruvbox-dark.rasi"
-
-window {
-    border-radius: 7px;
-    width: 600px;
-    height: 370px;
-}
-
-listview {
-    layout: vertical;
-    columns: 10;
-    lines: 7;
-    cycle: false;
-    scrollbar: false;
-    dynamic: false;
-}
-
-element {
-    padding: 2.5px;
+  show-icons: false;
 }
 
 element-text {
-    font: "'CaskaydiaCove NF', 25";
-    vertical-align: 0.5;
-    horizontal-align: 0.5;
+  font: "CaskaydiaCove NF Medium 25";
+  horizontal-align: 0.5;
+  padding: 10;
+}
+
+listview {
+  columns: 10;
+  lines: 5;
+}
+
+element {
+  margin: 2 0 2 0;
+  padding: 6 0 6 0;
 }

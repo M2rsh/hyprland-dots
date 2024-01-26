@@ -1,18 +1,29 @@
+@import "launcher.rasi"
+
 configuration {
-    font: "'CaskaydiaCove NF', 12";
-    case-sensitive: false;
-    show-icons: true;
-}
-
-@theme "gruvbox-dark.rasi"
-
-listview {
-    layout: vertical;
-    scrollbar: false;
-    dynamic: false;
+  show-icons: false;
+  location: 4;
 }
 
 window {
-    width: 150px;
-    height: 130px;
+  width: 150px;
+}
+
+listview {
+  columns: 1;
+  lines: 5;
+}
+
+element {
+  margin: 2 2 2 2;
+  padding: 6 0 6 10;
+}
+
+entry {
+  enabled: false;
+}
+
+prompt {
+  margin: 10;
+  padding: 0;
 }

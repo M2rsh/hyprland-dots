@@ -1,38 +1,83 @@
+// Used https://github.com/ericmurphyxyz/dotfiles as an example
+
 configuration {
-    drun {
-        display-name: "Filter";
-    }
-    font: "'CaskaydiaCove NF', 12";
-    case-sensitive: false;
-    show-icons: true;
+  display-drun: "Applications:";
+  display-window: "Windows:";
+  drun-display-format: "{name}";
+  font: "CaskaydiaCove NF Medium 12";
+  modi: "window,run,drun,emoji";
+  show-icons: true;
+  icon-theme: "Papirus";
 }
 
-@theme "gruvbox-dark.rasi"
+* {  
+  border: 0;
+  margin: 0;
+  padding: 0;
+  spacing: 0;
+  background-color: transparent;
+}
 
 window {
-    border-radius: 7px;
-    width: 800px;
-    height: 525px;
-}
-
-listview {
-    layout: vertical;
-    columns: 5;
-    lines: 5;
-    cycle: false;
-    scrollbar: false;
-    dynamic: false;
+  width: 800px;
+  background-color: #1d2021;
+  border-radius: 10;
+  border: 1;
+  border-color: #8ec97c;
 }
 
 element {
-    padding: 5px;
+  margin: 2 0 2 2;
+  padding: 6 0 6 10;
+  text-color: #83a598;
 }
 
-element-icon {
-    size: 4em;
+element selected {
+  border-radius: 10;
+  text-color: #8ec97c;
+  background-color: #282828;
 }
 
 element-text {
-    vertical-align: 0.5;
-    horizontal-align: 0.0;
+  text-color: inherit;
+  vertical-align: 0.5;
 }
+
+element-icon {
+  size: 25;
+  margin: 0 10 0 0;
+  border-radius: 10;
+}
+
+entry {
+  padding: 12;
+  background-color: inherit;
+  text-color: inherit;
+}
+
+prompt {
+  enabled: true;
+  padding: 12 0 0 12;
+  background-color: inherit;
+  text-color: inherit;
+}
+
+inputbar {
+  children: [prompt, entry];
+  background-color: #8ec97c;
+  text-color: #1d2021;
+}
+
+listview {
+  background-color: inherit;
+  text-color: #fbf1c7;
+  columns: 2;
+  lines: 10;
+}
+
+mainbox {
+  children: [inputbar, listview];
+  background-color: #1d2021;
+  text-color: #fbf1c7;
+}
+
