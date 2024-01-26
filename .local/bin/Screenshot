@@ -41,5 +41,5 @@ fi
 if ! grimblast --freeze copysave $argument "$SCREENSHOT_DIRECTORY/$(date +%s).png" > /dev/null ; then
     dunstify "Screenshot failed."
 else
-    ffplay -v 0 -nodisp -autoexit $HOME/.local/share/shutter.ogg
+    canberra-gtk-play -i screen-capture
 fi
