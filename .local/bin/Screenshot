@@ -1,7 +1,7 @@
 #!/bin/bash
 set -o pipefail
 
-SCREENSHOT_DIRECTORY=$HOME/Pictures/Screenshots_test
+SCREENSHOT_DIRECTORY=$HOME/Pictures/Screenshots
 
 case $1 in
     full)
@@ -37,6 +37,9 @@ if [[ ! -d "$SCREENSHOT_DIRECTORY" ]]; then
 	mkdir -p "$SCREENSHOT_DIRECTORY"
 fi
 
+
 if ! grimblast --freeze copysave $argument "$SCREENSHOT_DIRECTORY/$(date +%s).png" > /dev/null ; then
     dunstify "Screenshot failed."
+else
+    ffplay -v 0 -nodisp -autoexit $HOME/.local/share/shutter.ogg
 fi
