@@ -1,0 +1,10 @@
+@import "launcher.rasi"
+
+configuration {
+  show-icons: true;
+}
+
+listview {
+  columns: 1;
+  lines: 10;
+}
