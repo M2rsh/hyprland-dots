@@ -89,7 +89,7 @@ I used [this](https://github.com/linuxmobile/hyprland-dots) config before so it 
 Manual
 1. Install dependencies and software
 ```bash
-yay -S hyprland waybar swaylock-effects kitty zsh dunst libcanberra ttf-cascadia-code-nerd \
+yay -S hyprland waybar swaylock-effects kitty zsh dunst libcanberra ttf-cascadia-code-nerd hyprkeys \
 rofi-lbonn-wayland-git rofi-emoji-abi8 wtype \
 hyprpicker swww waypaper
 ```
