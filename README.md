@@ -1,13 +1,12 @@
 # Hyprland configuration
 <center><b>Work in progress</b></center>
 
-- [ ] [Hyprland](https://github.com/hyprwm/Hyprland) (Partially done)
+- [x] [Hyprland](https://github.com/hyprwm/Hyprland)
 - [x] [Waybar](https://github.com/Alexays/Waybar)
 - [x] [Swaylock-effects](https://github.com/mortie/swaylock-effects)
-- [ ] [ZSH](https://github.com/ohmyzsh/ohmyzsh)
 - [x] [Kitty](https://sw.kovidgoyal.net/kitty/)
 - [x] [Rofi](https://github.com/lbonn/rofi)
-- [ ] [Dunst](https://github.com/dunst-project/dunst)
+- [x] [Dunst](https://github.com/dunst-project/dunst)
 
 [Colour scheme](https://github.com/morhetz/gruvbox)
 
@@ -80,16 +79,20 @@ I used [this](https://github.com/linuxmobile/hyprland-dots) config before so it 
 <details open>
 <summary>Requirements</summary>
 
-Rofi requirements
+
+# Install
+<!--Automatic (do not use) (doesn't copy the config yet)
 ```bash
-yay -S rofi-emoji-abi8 rofi-lbonn-wayland-git wtype
+./install.sh
+``` -->
+
+Manual
+1. Install dependencies and software
+```bash
+yay -S hyprland waybar swaylock-effects kitty zsh dunst libcanberra \
+rofi-lbonn-wayland-git rofi-emoji-abi8 wtype \
+hyprpicker swww waypaper
 ```
-
-others
-```libcanberra```
-
-##### Install command in some time (soon tm)
-- [Waypaper](https://github.com/anufrievroman/waypaper)
-- [swww](https://github.com/Horus645/swww)
-- [rofi-emoji](https://github.com/Mange/rofi-emoji)
+2. Install oh my zsh in your prefered way
+3. Copy configs
 </details>
