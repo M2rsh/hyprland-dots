@@ -1,5 +1,5 @@
 install_function () {
-    yay -S --noconfirm hyprland waybar swaylock-effects kitty zsh dunst libcanberra ttf-cascadia-code-nerd hyprkeys \
+    yay -S --noconfirm hyprland waybar swaylock-effects kitty zsh dunst libcanberra ttf-cascadia-code-nerd hyprkeys jq \
     rofi-lbonn-wayland-git rofi-emoji-abi8 wtype \
     hyprpicker swww waypaper-git
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
