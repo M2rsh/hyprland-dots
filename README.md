@@ -96,4 +96,5 @@ hyprpicker swww waypaper
 ```
 2. Install oh my zsh in your prefered way
 3. Copy configs
+4. Edit your monitor/keyboard configuration in ~/.config/hypr/hyprland.conf
 </details>
