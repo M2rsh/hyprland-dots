@@ -81,6 +81,7 @@ I used [this](https://github.com/linuxmobile/hyprland-dots) config before so it 
 
 
 # Install
+Warning: Optional package copyq will probably get removed in the near future
 <!--Automatic (do not use) (doesn't copy the config yet)
 ```bash
 ./install.sh
