@@ -81,16 +81,13 @@ I used [this](https://github.com/linuxmobile/hyprland-dots) config before so it 
 </details>
 
 <details open>
-<summary>Requirements</summary>
-
-
-# Install
-<!--Automatic (do not use) (doesn't copy the config yet)
+<summary>Installation</summary>
+<!--Automatic ( do not use i am too scared :( )
 ```bash
 ./install.sh
 ``` -->
 
-Manual
+# Manual
 1. Install dependencies and software
 ```bash
 yay -S hyprland waybar swaylock-effects kitty zsh dunst libcanberra ttf-cascadia-code-nerd hyprkeys jq wl-clipboard cliphist \
