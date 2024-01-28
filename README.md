@@ -1,4 +1,7 @@
 # Hyprland configuration
+
+![1706451076](https://github.com/M2rsh/hyprland-dots/assets/69349269/74d53a14-c991-4ebc-bdb7-d3362142462d)
+
 <center><b>Work in progress</b></center>
 
 - [x] [Hyprland](https://github.com/hyprwm/Hyprland)
