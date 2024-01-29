@@ -1,7 +1,7 @@
 install_function () {
     yay -S --noconfirm hyprland waybar swaylock-effects kitty zsh dunst libcanberra ttf-cascadia-code-nerd hyprkeys jq wl-clipboard cliphist \
     rofi-lbonn-wayland-git rofi-emoji-abi8 wtype \
-    hyprpicker swww waypaper-git grimblast-git
+    hyprpicker swww waypaper-git grimblast-git pamixer
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     mv .config/* ~/.config/
     mv .local/* ~/.local/
