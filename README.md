@@ -88,11 +88,11 @@ I used [this](https://github.com/linuxmobile/hyprland-dots) config before so it 
 ``` -->
 
 # Manual
-1. Install dependencies and software
+1. Install dependencies and software (TODO: Clean this up)
 ```bash
 yay -S hyprland waybar swaylock-effects kitty zsh dunst libcanberra ttf-cascadia-code-nerd hyprkeys jq wl-clipboard cliphist \
 rofi-lbonn-wayland-git rofi-emoji-abi8 wtype \
-hyprpicker swww waypaper grimblast-git pamixer ttf-twemoji
+hyprpicker swww waypaper grimblast-git pamixer ttf-twemoji papirus-icon-theme
 ```
 2. Install oh my zsh in your prefered way
 3. Copy configs
