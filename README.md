@@ -15,7 +15,7 @@
 
 I used [this](https://github.com/linuxmobile/hyprland-dots) config before so it may be simular to it in some ways
 
-<details open>
+<details closed>
 <summary>Keybinds</summary>
 <br/>
 
