@@ -82,19 +82,23 @@ I used [this](https://github.com/linuxmobile/hyprland-dots) config before so it 
 
 <details open>
 <summary>Installation</summary>
-<!--Automatic ( do not use i am too scared :( )
+<!--Automatic ( do not use I am too scared :( )
 ```bash
 ./install.sh
 ``` -->
 
 # Manual
-1. Install dependencies and software (TODO: Clean this up)
+1. Install dependencies and software
 ```bash
-yay -S hyprland waybar swaylock-effects kitty zsh dunst libcanberra ttf-cascadia-code-nerd hyprkeys jq wl-clipboard cliphist \
-rofi-lbonn-wayland-git rofi-emoji-abi8 wtype \
-hyprpicker swww waypaper grimblast-git pamixer ttf-twemoji papirus-icon-theme
+yay -S hyprland waybar kitty zsh swww swaylock-effects dunst \
+ttf-cascadia-code-nerd ttf-twemoji papirus-icon-theme \
+rofi-lbonn-wayland-git rofi-emoji-abi8 wtype hyprkeys jq wl-clipboard cliphist \
+hyprpicker waypaper grimblast-git pamixer libcanberra
 ```
 2. Install oh my zsh in your prefered way
 3. Copy configs
 4. Edit your monitor/keyboard configuration in ~/.config/hypr/hyprland.conf
+(Also edit env variables (in ~/.config/hypr/hyprland.conf) if you're running on AMD GPU but I'm gonna be honest I have no idea whether it has any acutal impact)
+
+You can edit your wallpaper in `waypaper` gui application or `swww` command
 </details>
