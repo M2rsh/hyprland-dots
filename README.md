@@ -26,7 +26,6 @@ I used [this](https://github.com/linuxmobile/hyprland-dots) config before so it 
 | <kbd>SUPER SHIFT END</kbd> | exit  |  | Exit Hyprland |
 | <kbd>SUPER F</kbd> | fullscreen  |  | Enter fullscreen for active window |
 | <kbd>SUPER Space</kbd> | togglefloating  |  | Toggle floating window |
-| <kbd>SUPER S</kbd> | togglesplit  |  | Toggle split |
 | <kbd>SUPER c</kbd> | exec | hyprctl dispatch centerwindow  | Centre a window |
 | <kbd>SUPER Return</kbd> | exec | kitty  | Open terminal |
 | <kbd>SUPER E</kbd> | exec | dolphin  | Open a file manager |
@@ -90,19 +89,27 @@ I used [this](https://github.com/linuxmobile/hyprland-dots) config before so it 
 ```bash
 ./install.sh
 ```
-2. Follow step 4 in manual installation
+2. Follow step 6 in manual installation
 
 # Manual
 1. Install dependencies and software
 ```bash
-yay -S hyprland waybar kitty zsh swww swaylock-effects dunst \
+yay -S hyprland waybar kitty zsh swww swaylock-effects dunst cpio \
 ttf-cascadia-code-nerd ttf-twemoji papirus-icon-theme \
 rofi-lbonn-wayland-git rofi-emoji-abi8 wtype hyprkeys jq wl-clipboard cliphist \
 hyprpicker waypaper grimblast-git pamixer libcanberra
 ```
-2. Install oh my zsh in your prefered way
-3. Copy configs
-4. Edit your monitor/keyboard configuration in ~/.config/hypr/hyprland.conf
+2. Add hyprpm (plugin manager) repo 
+```bash
+hyprpm update && hyprpm add https://github.com/hyprwm/hyprland-plugins
+```
+3. Enable plugins
+```bash
+hyprpm enable hyprtrails && hyprpm enable csgo-vulkan-fix
+```
+4. Install oh my zsh in your prefered way
+5. Copy configs
+6. Edit your monitor/keyboard configuration in ~/.config/hypr/hyprland.conf
 ( Also edit env variables (in ~/.config/hypr/hyprland.conf) if you're running on AMD GPU but I'm gonna be honest I have no idea whether it has any acutal impact )
 
 You can edit your wallpaper in `waypaper` gui application or `swww` command
