@@ -82,10 +82,15 @@ I used [this](https://github.com/linuxmobile/hyprland-dots) config before so it 
 
 <details open>
 <summary>Installation</summary>
-<!--Automatic ( do not use I am too scared :( )
+  
+# Automatic 
+##### ( Arch/[Yay](https://github.com/Jguer/yay) only )
+##### ( I do not recommend running this with pre existing configs. If any exist move them to a backup folder first )
+1. Run
 ```bash
 ./install.sh
-``` -->
+```
+2. Follow step 4 in manual installation
 
 # Manual
 1. Install dependencies and software
@@ -98,7 +103,7 @@ hyprpicker waypaper grimblast-git pamixer libcanberra
 2. Install oh my zsh in your prefered way
 3. Copy configs
 4. Edit your monitor/keyboard configuration in ~/.config/hypr/hyprland.conf
-(Also edit env variables (in ~/.config/hypr/hyprland.conf) if you're running on AMD GPU but I'm gonna be honest I have no idea whether it has any acutal impact)
+( Also edit env variables (in ~/.config/hypr/hyprland.conf) if you're running on AMD GPU but I'm gonna be honest I have no idea whether it has any acutal impact )
 
 You can edit your wallpaper in `waypaper` gui application or `swww` command
 </details>
