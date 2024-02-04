@@ -66,7 +66,6 @@ Hover -> Info about playing media <br/>
 
 ### Taskbar
 ![taskbar](https://github.com/M2rsh/hyprland-dots/assets/69349269/f0d0c67f-cf4f-43bf-92aa-a54f606aa558)
-<p align="left">Nothing special</p>
 
 ### Volume/Microphone Controller
 ![volume-controller](https://github.com/M2rsh/hyprland-dots/assets/69349269/c87cbaa5-989b-4cd0-8f44-3da63e15004e)
