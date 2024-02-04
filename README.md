@@ -1,8 +1,9 @@
-# Hyprland configuration
+<div align="center">
+  
+# Hyprland dotfiles
+![preview](https://github.com/M2rsh/hyprland-dots/assets/69349269/37b66171-17fc-41c2-b0d1-9279d4db535f)
 
-![1706451076](https://github.com/M2rsh/hyprland-dots/assets/69349269/74d53a14-c991-4ebc-bdb7-d3362142462d)
-
-<center><b>Work in progress</b></center>
+</div>
 
 - [x] [Hyprland](https://github.com/hyprwm/Hyprland)
 - [x] [Waybar](https://github.com/Alexays/Waybar)
@@ -11,11 +12,73 @@
 - [x] [Rofi](https://github.com/lbonn/rofi)
 - [x] [Dunst](https://github.com/dunst-project/dunst)
 
-[Colour scheme](https://github.com/morhetz/gruvbox)
+[Go to installation](#installation)
 
-I used [this](https://github.com/linuxmobile/hyprland-dots) config before so it may be simular to it in some ways
+<details open>
+<summary>Showcase</summary>
+<div align="center">
+  
+### Hyprtrails
+![hyprtrails-showcase](https://github.com/M2rsh/hyprland-dots/assets/69349269/88b81b2c-757d-4523-8606-e9ce1f6ed201)
 
-<details closed>
+### Application Launcher
+![application-launcher](https://github.com/M2rsh/hyprland-dots/assets/69349269/549a31eb-c356-42e3-8c2f-b7304fde1bd0)
+
+### Emoji Picker
+![emoji-picker](https://github.com/M2rsh/hyprland-dots/assets/69349269/1b80c257-5cc8-4c25-a306-227e3a89b188)
+
+### Clipboard Manager
+![clipboard-manager](https://github.com/M2rsh/hyprland-dots/assets/69349269/6b59c978-30fc-49d4-bcb6-bf04e013b1fe)
+
+### Help menu
+![help-menu](https://github.com/M2rsh/hyprland-dots/assets/69349269/c8c2e53e-2695-4dc6-96ad-3f32dd95ee2a)
+
+## Waybar
+
+### Clock/Calendar
+![clock-calendar](https://github.com/M2rsh/hyprland-dots/assets/69349269/272f5008-e701-4db7-8b83-52222e712ce9)
+<p align="left">
+Hover -> Expand callendar <br/>
+Scroll -> Next/Previous month <br/>
+</p>
+
+### Workspaces Indicator
+![workspaces](https://github.com/M2rsh/hyprland-dots/assets/69349269/cec8dbec-54ac-4a63-a6a5-5951b5d4573b)
+<p align="left">
+Left click -> Move to the corresponding workspace <br/>
+Scroll -> Move through workspaces <br/>
+</p>
+
+### Window name
+![window-name](https://github.com/M2rsh/hyprland-dots/assets/69349269/53f17d22-2f5d-4f7a-9cd9-be527e8a7ef3)
+<p align="left">
+Icons 😍 (On some programs. You can add your own in ~/.config/waybar/config.jsonc)
+</p>
+
+### Media Controller
+![media-controller](https://github.com/M2rsh/hyprland-dots/assets/69349269/a856418b-a589-4b86-8842-24bf0a883635)
+<p align="left">
+Scroll -> Next/Previous media <br/>
+Left click -> Pause/Play <br/>
+Middle click -> Pause/Play Spotify <br/>
+Hover -> Info about playing media <br/>
+</p>
+
+### Taskbar
+![taskbar](https://github.com/M2rsh/hyprland-dots/assets/69349269/f0d0c67f-cf4f-43bf-92aa-a54f606aa558)
+<p align="left">Nothing special</p>
+
+### Volume/Microphone Controller
+![volume-controller](https://github.com/M2rsh/hyprland-dots/assets/69349269/c87cbaa5-989b-4cd0-8f44-3da63e15004e)
+<p align="left">
+Scroll -> Volume Up/Down <br/>
+Left click -> Mute <br/>
+</p>
+
+</div>
+
+</details>
+<details open>
 <summary>Keybinds</summary>
 <br/>
 
@@ -79,19 +142,22 @@ I used [this](https://github.com/linuxmobile/hyprland-dots) config before so it 
 
 </details>
 
-<details open>
-<summary>Installation</summary>
-  
-# Automatic 
-##### ( Arch/[Yay](https://github.com/Jguer/yay) only )
-##### ( I do not recommend running this with pre existing configs. If any exist move them to a backup folder first )
+# Installation
+
+## Automatic
+> [!CAUTION]
+> Arch/[Yay](https://github.com/Jguer/yay) only
+> 
+> I do not recommend running this with pre existing configs. If any exist move them to a backup folder first
+
 1. Run
 ```bash
 ./install.sh
 ```
 2. Follow step 6 in manual installation
 
-# Manual
+## Manual
+
 1. Install dependencies and software
 ```bash
 yay -S hyprland waybar kitty zsh swww swaylock-effects dunst cpio \
@@ -109,8 +175,9 @@ hyprpm enable hyprtrails && hyprpm enable csgo-vulkan-fix
 ```
 4. Install oh my zsh in your prefered way
 5. Copy configs
-6. Edit your monitor/keyboard configuration in ~/.config/hypr/hyprland.conf
-( Also edit env variables (in ~/.config/hypr/hyprland.conf) if you're running on AMD GPU but I'm gonna be honest I have no idea whether it has any acutal impact )
+6. Edit your monitor/keyboard configuration in `~/.config/hypr/hyprland.conf` Also edit env variables (in `~/.config/hypr/hyprland.conf`) if you're running on AMD GPU but I'm gonna be honest I have no idea whether it has any acutal impact
 
-You can edit your wallpaper in `waypaper` gui application or `swww` command
-</details>
+> [!NOTE]
+> You can edit your wallpaper in `waypaper` gui application or `swww` command
+
+[Colour scheme](https://github.com/morhetz/gruvbox)
