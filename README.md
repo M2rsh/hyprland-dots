@@ -177,7 +177,7 @@ hyprpm enable hyprtrails && hyprpm enable csgo-vulkan-fix
 ```
 4. Install oh my zsh in your prefered way
 5. Copy configs
-6. Edit your monitor/keyboard configuration in `~/.config/hypr/hyprland.conf` Also edit env variables (in `~/.config/hypr/hyprland.conf`) if you're running on AMD GPU but I'm gonna be honest I have no idea whether it has any acutal impact
+6. Edit your monitor/keyboard configuration in `~/.config/hypr/hyprland.conf` Also edit env variables (comment or delete nvidia) in `~/.config/hypr/hyprland.conf` if you're running on AMD GPU but I'm gonna be honest I have no idea whether it has any acutal impact
 
 > [!NOTE]
 > You can edit your wallpaper in `waypaper` gui application or `swww` command
