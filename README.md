@@ -30,6 +30,9 @@
 ### Clipboard Manager
 ![clipboard-manager](https://github.com/M2rsh/hyprland-dots/assets/69349269/6b59c978-30fc-49d4-bcb6-bf04e013b1fe)
 
+### Power Menu
+![power-menu](https://github.com/M2rsh/hyprland-dots/assets/69349269/2049cdd4-be0f-4f8d-9f28-d7592f9f8878)
+
 ### Help menu
 ![help-menu](https://github.com/M2rsh/hyprland-dots/assets/69349269/c8c2e53e-2695-4dc6-96ad-3f32dd95ee2a)
 
