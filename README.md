@@ -1,9 +1,11 @@
 <div align="center">
-  
+
 # Hyprland dotfiles
 ![preview](https://github.com/M2rsh/hyprland-dots/assets/69349269/37b66171-17fc-41c2-b0d1-9279d4db535f)
 
 </div>
+
+### Work in Progress screenshots may be a bit different
 
 - [x] [Hyprland](https://github.com/hyprwm/Hyprland)
 - [x] [Waybar](https://github.com/Alexays/Waybar)
