@@ -6,7 +6,7 @@ configuration {
 }
 
 window {
-  width: 180px;
+  width: 160px;
 }
 
 listview {
