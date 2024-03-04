@@ -171,7 +171,7 @@ hyprpm enable hyprtrails && hyprpm enable csgo-vulkan-fix
 5. Copy configs
 6. Edit your monitor/keyboard configuration in `~/.config/hypr/hyprland.conf` Also edit env variables (comment or delete nvidia) in `~/.config/hypr/hyprland.conf` if you're running on AMD GPU but I'm gonna be honest I have no idea whether it has any acutal impact
 
-For discord theme install Vencord (Read it's ReadME by using 3rd party discord launchers you're breaking discord TOS blah blah blah no one actually got banned use at own risk anyway) you can change or remove the theme using Quick Css in settings > vencord > themes
+For discord theme install Vencord (Read it's ReadME by using modified discord launchers you're breaking discord TOS blah blah blah no one actually got banned use at own risk anyway) you can change or remove the theme using Quick Css in settings > vencord > themes
 
 > [!NOTE]
 > You can edit your wallpaper in `waypaper` gui application or `swww` command
