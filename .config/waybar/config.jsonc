@@ -7,114 +7,125 @@
     "gtk-layer-shell": true,
     "height": 0,
     "modules-left": [
-        "clock",
-        "hyprland/workspaces"
+      "clock",
+      "hyprland/workspaces",
+      "custom/blank-left"
     ],
-    "modules-center": ["hyprland/window"],
+    "modules-center": [
+      "hyprland/window"
+    ],
     "modules-right": [
-        "custom/media",
-        "tray",
-        "pulseaudio",
-        "pulseaudio#microphone"
+      "custom/blank-right",
+      "custom/media",
+      "tray",
+      "pulseaudio",
+      "pulseaudio#microphone"
     ],
     "hyprland/window": {
-        "format": "{}",
-        "rewrite": {
-            "": "No window focused",
-            "Steam": "󰓓  Steam",
-            "Mozilla Firefox": "  Mozilla Firefox",
-            "Spotify": "  Spotify",
-            "Lutris": "  Lutris",
-            "vim": "  Vim",
-            "nvim": "  Neovim",
-            "zsh": "  zsh",
-            "VSCodium": "  VSCodium",
-            "(.*) — Mozilla Firefox": "  $1",
-            "(.*) - VSCodium": "  $1",
-            "(.*) - zsh": "  [$1]",
-            "(.*) - Discord": "󰙯  $1"
-        }
+      "format": "{}",
+      "rewrite": {
+        "": "No window focused",
+        "Steam": "󰓓  Steam",
+        "Mozilla Firefox": "󰈹  Mozilla Firefox",
+        "Spotify": "󰓇  Spotify",
+        "Lutris": "󰺵  Lutris",
+        "vim": "󰅴  Vim",
+        "nvim": "󰅴  Neovim",
+        "VSCodium": "󰅴  VSCodium",
+        "zsh": "󰆍  zsh",
+        "(.*) — Mozilla Firefox": "󰈹 $1",
+        "(.*) - VSCodium": "󰅴 $1",
+        "(.*) - zsh": "󰆍 [$1]",
+        "(.*) - Discord": "󰙯 $1"
+      }
     },
     "hyprland/workspaces": {
-        "on-scroll-up": "hyprctl dispatch workspace e+1",
-        "on-scroll-down": "hyprctl dispatch workspace e-1",
-        "all-outputs": true,
-        "on-click": "activate",
-        "format": "{icon}",
-        "format-icons": {
-            "urgent": "",
-            "active": "",
-            "default": ""
-          }
+      "on-scroll-up": "hyprctl dispatch workspace e+1",
+      "on-scroll-down": "hyprctl dispatch workspace e-1",
+      "all-outputs": true,
+      "on-click": "activate",
+      "format": "{icon}",
+      "format-icons": {
+        "urgent": "",
+        "active": "󰝥",
+        "default": "󰝥"
+        //"default": ""
+      }
     },
     "tray": {
-        "icon-size": 13,
-        "tooltip": false,
-        "spacing": 10
+      "icon-size": 13,
+      "tooltip": false,
+      "spacing": 10
     },
     "clock": {
-        "interval": 1,
-        "format": "<b>{: %H:%M 󰧒 %d/%m}</b>",
-        "tooltip-format": "<span color='#b8bb26'> {:%T} \n󰧒 </span>{calendar}",
-        "calendar": {
-            "mode"          : "month",
-            "mode-mon-col"  : 1,
-            "weeks-pos"     : "right",
-            "on-scroll"     : 1,
-            "format": {
-                      "months":     "<span color='#b8bb26'>{}</span>\n",
-                      "days":       "<span color='#928374'><b>{}</b></span>",
-                      "weeks":      "<span color='#b8bb26'><b>W{}</b></span>",
-                      "weekdays":   "<span color='#bdae93'><b>{}</b></span>",
-                      "today":      "<span color='#fb4934'><b>{}</b></span>"
-                      }
-            },
-        "actions":  {
-            "on-scroll-up": "shift_up",
-            "on-scroll-down": "shift_down"
+      "interval": 1,
+      "format": "<b>{:󰥔 %H:%M 󰃭 %d/%m}</b>",
+      "tooltip-format": "       <span color='#c4a7e7'>󰥔 {:%T}</span>\n{calendar}",
+      "calendar": {
+        "mode": "month",
+        "mode-mon-col": 1,
+        "weeks-pos": "right",
+        "on-scroll": 1,
+        "format": {
+          "months": "<span color='#c4a7e7'>{}</span>\n",
+          "days": "<span color='#9ccfd8'><b>{}</b></span>",
+          "weeks": "<span color='#c4a7e7'><b>W{}</b></span>",
+          "weekdays": "<span color='#31748f'><b>{}</b></span>",
+          "today": "<span color='#31748f'><b>{}</b></span>"
         }
+      },
+      "actions": {
+        "on-scroll-up": "shift_up",
+        "on-scroll-down": "shift_down"
+      }
     },
     "pulseaudio": {
-        "format": "{icon} {volume}%",
-        "tooltip": false,
-        "format-muted": " Muted",
-        "on-click": "pamixer -t",
-        "on-scroll-up": "pamixer -i 5 --allow-boost --set-limit 150 && canberra-gtk-play -i audio-volume-change",
-        "on-scroll-down": "pamixer -d 5 --allow-boost --set-limit 150 && canberra-gtk-play -i audio-volume-change",
-        "scroll-step": 5,
-        "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", "", ""]
-        }
+      "format": "{icon} {volume}%",
+      "tooltip": false,
+      "format-muted": "󰝟 Muted",
+      "on-click": "pamixer -t",
+      "on-scroll-up": "pamixer -i 5 --allow-boost --set-limit 150 && canberra-gtk-play -i audio-volume-change",
+      "on-scroll-down": "pamixer -d 5 --allow-boost --set-limit 150 && canberra-gtk-play -i audio-volume-change",
+      "scroll-step": 5,
+      "format-icons": {
+        "default": [
+          "󰕿",
+          "󰖀",
+          "󰕾"
+        ]
+      }
     },
     "pulseaudio#microphone": {
-        "format": "{format_source}",
-        "tooltip": false,
-        "format-source": " {volume}%",
-        "format-source-muted": " Muted",
-        "on-click": "pamixer --default-source -t",
-        "on-scroll-up": "pamixer --default-source -i 5 --allow-boost --set-limit 150",
-        "on-scroll-down": "pamixer --default-source -d 5 --allow-boost --set-limit 150",
-        "scroll-step": 5
+      "format": "{format_source}",
+      "tooltip": false,
+      "format-source": "󰍬 {volume}%",
+      "format-source-muted": "󰍭 Muted",
+      "on-click": "pamixer --default-source -t",
+      "on-scroll-up": "pamixer --default-source -i 5 --allow-boost --set-limit 150",
+      "on-scroll-down": "pamixer --default-source -d 5 --allow-boost --set-limit 150",
+      "scroll-step": 5
+    },
+    "custom/blank-right": {
+      "format": " ",
+      "tooltip": false
+    },
+    "custom/blank-left": {
+      "format": " ",
+      "tooltip": false
     },
     "custom/media": {
-        "format": "{icon} {}",
-        "return-type": "json",
-        "format-icons": {
-            "Paused": "",
-            "Playing": ""
-        },
-        "max-length":70,
-        "exec": "playerctl -a metadata --format '{\"text\": \"{{markup_escape(title)}}\", \"tooltip\": \"({{playerName}}) {{artist}} - {{markup_escape(title)}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F",
-        "on-click": "playerctl play-pause",
-	"on-click-middle": "playerctl play-pause -p spotify",
-        "smooth-scrolling-threshold": 10,
-        "on-scroll-up": "playerctl next",
-        "on-scroll-down": "playerctl previous"
+      "format": "{icon} {}",
+      "return-type": "json",
+      "format-icons": {
+        "Paused": "󰐊",
+        "Playing": "󰏤"
+      },
+      "max-length": 70,
+      "exec": "playerctl -a metadata --format '{\"text\": \"{{markup_escape(title)}}\", \"tooltip\": \"({{playerName}}) {{artist}} - {{markup_escape(title)}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F",
+      "on-click": "playerctl play-pause",
+      "on-click-middle": "playerctl play-pause -p spotify",
+      "smooth-scrolling-threshold": 10,
+      "on-scroll-up": "playerctl next",
+      "on-scroll-down": "playerctl previous"
     }
-}
+  }

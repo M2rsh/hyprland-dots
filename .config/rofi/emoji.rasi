@@ -5,7 +5,7 @@ configuration {
 }
 
 element-text {
-  font: "CaskaydiaCove NF Medium 25";
+  font: "JetBrains Mono NF Medium 25";
   horizontal-align: 0.5;
   padding: 10;
 }

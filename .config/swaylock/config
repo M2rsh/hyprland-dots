@@ -3,35 +3,35 @@ show-failed-attempts
 clock
 
 datestr=%d.%m.%y
-color=1d2021a0
+color=191724a0
 
 indicator-idle-visible
 indicator-radius=200
 indicator-thickness=5
 
-inside-color=1d2021
-inside-clear-color=1d2021
-inside-ver-color=1d2021
-inside-wrong-color=1d2021
+inside-color=191724
+inside-clear-color=191724
+inside-ver-color=191724
+inside-wrong-color=191724
 
-key-hl-color=8ec07c
-bs-hl-color=8ec07c
+key-hl-color=c4a7e7
+bs-hl-color=c4a7e7
 
 separator-color=00000000
 
-line-color=8ec07c
+line-color=c4a7e7
 line-uses-ring
 
-text-color=8ec07c
-text-clear-color=ebdbb2
-text-caps-lock-color=d3869b
-text-ver-color=8ec07c
-text-wrong-color=cc241d
+text-color=c4a7e7
+text-clear-color=e0def4
+text-caps-lock-color=ebbcba
+text-ver-color=c4a7e7
+text-wrong-color=eb6f92
 
-ring-color=1d2021d0
-ring-ver-color=8ec07c
-ring-clear-color=ebdbb2
-ring-wrong-color=cc241d
+ring-color=191724d0
+ring-ver-color=c4a7e7
+ring-clear-color=e0def4
+ring-wrong-color=eb6f92
 
 grace=1
 fade-in=0.1

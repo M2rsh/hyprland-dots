@@ -1,127 +1,138 @@
 * {
-    border: none;
-    border-radius: 0;
-    padding: 0;
-    padding-bottom: 1px;
-    font-family: 'CaskaydiaCove NF', monospace;
-    font-weight: normal;
-    font-size: 14px;
-    min-height: 0;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  font-family: "JetBrains Mono NF", monospace;
+  font-weight: bold;
+  font-size: 14px;
+  min-height: 0;
+  padding-bottom: 1px;
 }
 
 tooltip {
-    background: #282828;
-    border-radius: 10px;
+  background: #191724;
+  border-radius: 10px;
+  border: 1px #1f1d2e solid;
 }
 
 window#waybar {
-    background: transparent;
-    color: #cdd6f4;
-}
-
-#tooltip,
-#workspaces,
-#window,
-#custom-media,
-#pulseuadio {
-    border: solid 1px rgba(29, 32, 33, 0.5);
-    border-top: 0px;
-}
-
-#clock,
-#tray {
-    border: solid 1px rgba(40, 40, 40, 0.5);
-    border-top: 0px;
+  background: transparent;
+  color: #e0def4;
 }
 
 #clock {
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: #1d2021;
-    color: #b8bb26;
-    border-radius: 0px 0px 10px 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #191724;
+  color: #f6c177;
 }
 
 #workspaces {
-    background-color: #282828;
-    margin-left: 10px;
-    border-radius: 0px 0px 10px 10px;
+  background-color: #191724;
+  border-left: 1px #1f1d2e solid;
+  padding-left: 5px;
 }
 
 #workspaces button {
-    padding: 5px;
-    color: #fbf1c7;
-    margin-right: 2.5px;
-    margin-left: 2.5px;
+  padding: 5px;
+  color: #403d52;
+  margin-right: 2.5px;
+  margin-left: 2.5px;
 }
 
 #workspaces button.active {
-    color: #b8bb26;
+  color: #ebbcba;
 }
 
 #workspaces button.urgent {
-    color: #cc241d;
+  color: #eb6f92;
 }
 
 #workspaces button:hover {
-    color: #8ec07c;
+  color: #c4a7e7;
+  border-color: #c4a7e7;
 }
 
 #window {
-    background-color: #8ec07c;
-    color: #1d2021;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 0px 0px 10px 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+  background-color: #c4a7e7;
+  color: #191724;
+  border: 1px solid #a388c2;
+  border-top: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 0px 0px 10px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #custom-media {
-    border-radius: 0px 0px 10px 10px;
-    margin-right: 10px;
-    background-color: #282828;
-    padding-left: 10px;
-    padding-right: 10px;
+  background-color: #191724;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #1f1d2e;
 }
-  
+
 #custom-media.Playing {
-    color: #8ec07c;
+  color: #e0def4;
 }
-  
+
 #custom-media.Paused {
-    color: #fb4934;
+  color: #fb4934;
 }
 
 #tray {
-    background-color: #1d2021;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-right: 10px;
-    border-radius: 0px 0px 10px 10px;
+  background-color: #191724;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid #1f1d2e;
 }
 
 #pulseaudio {
-    font-weight: bold;
-    color: #1d2021;
-    margin-right: 0px;
-    padding-right: 10px;
-    padding-left: 10px;
-    background-color: #b8bb26;
-    border-radius: 0px 0px 0px 10px;
+  color: #9ccfd8;
+  margin-right: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #191724;
 }
 
 #pulseaudio.muted {
-    background-color: #fb4934;
+  color: #191724;
+  background-color: #eb6f92;
 }
 
 #pulseaudio.microphone {
-    color: #1d2021;
-    background-color: #83a598;
-    padding-right: 10px;
-    border-radius: 0px;
+  color: #31748f;
+  background-color: #191724;
+  padding-right: 10px;
 }
 
 #pulseaudio.source-muted.microphone {
-    background-color: #cc241d;
+  color: #191724;
+  background-color: #ec5681;
+}
+
+#custom-blank-right {
+  background: #191724;
+  border-radius: 0 0 0 10px;
+}
+
+.modules-right {
+  border: 1px #1f1d2e solid;
+  border-top: none;
+  border-right: none;
+  border-radius: 0 0 0 10px;
+  padding-bottom: 0px;
+}
+
+#custom-blank-left {
+  background: #191724;
+  border-radius: 0 0 10px 0;
+}
+
+.modules-left {
+  border: 1px #1f1d2e solid;
+  border-top: none;
+  border-left: none;
+  border-radius: 0 0 10px 0;
+  padding-bottom: 0px;
 }

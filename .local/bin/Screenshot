@@ -2,7 +2,7 @@
 set -o pipefail
 
 SCREENSHOT_DIRECTORY=$HOME/Pictures/Screenshots
-export SLURP_ARGS="-d -b #1d20218f -B #1d20218f -c #8ec07c -o"
+export SLURP_ARGS="-d -b #1917248f -B #1917248f -c #c4a7e7 -o"
 
 case $1 in
    "active"|"screen"|"output"|"area")

@@ -1,6 +1,6 @@
 install_function () {
     yay -S hyprland waybar kitty zsh swww swaylock-effects dunst cpio \
-    ttf-cascadia-code-nerd ttf-twemoji papirus-icon-theme \
+    ttf-jetbrains-mono-nerd ttf-twemoji papirus-icon-theme \
     rofi-lbonn-wayland-git rofi-emoji-abi8 wtype hyprkeys jq wl-clipboard cliphist \
     hyprpicker waypaper grimblast-git pamixer libcanberra
     mv .config/* ~/.config/

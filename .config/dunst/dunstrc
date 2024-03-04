@@ -4,16 +4,12 @@
     ### Display ###
     # Display notifications on monitor with mouse focus
     follow = mouse
-    # Set {width}x{height} and {x_pos}+{y_pos}
-    geometry = "300x30-5+60"
+    width = 300
+    height = 500
     # Show number of hidden notifications
     indicate_hidden = yes
     # Shrink window if smaller than width
     shrink = no
-    # Set transparency of notifications
-    transparency = 0
-    # Height of whole notification    
-    notification_height = 0
     # Height of seperators
     separator_height = 2
     # Text and seperator padding
@@ -23,7 +19,7 @@
     # Width of frame around window
     frame_width = 1
     # Color of frame around window
-    frame_color = "#8ec07c"
+    frame_color = "#c4a7e7"
     # Sort messages by urgency
     sort = yes
     # Idle seconds
@@ -32,7 +28,7 @@
     ### Text ###
     
     # Set font of notifications
-    font = Caskaydia Cove NF 10
+    font = JetBrains Mono NF 10
     # Spacing between lines 
     line-height = 0
     # Markup parsing
@@ -116,13 +112,13 @@
 [urgency_normal]
 
     # Normal urgency notifications
-    background = "#1d2021"
-    foreground = "#ebdbb2"
+    background = "#191724"
+    foreground = "#e0def4"
     timeout = 4
 
 [urgency_critical]
 
     # High urgency notifications
-    background = "#1d2021"
-    foreground = "#fb4934"
-    timeout = 0
+    background = "#191724"
+    foreground = "#eb6f92"
+    timeout = 10
