@@ -111,7 +111,7 @@ window#waybar {
   background-color: #ec5681;
 }
 
-#custom-blank-right {
+.modules-right #custom-blank {
   background: #191724;
   border-radius: 0 0 0 10px;
 }
@@ -124,7 +124,7 @@ window#waybar {
   padding-bottom: 0px;
 }
 
-#custom-blank-left {
+.modules-left #custom-blank {
   background: #191724;
   border-radius: 0 0 10px 0;
 }

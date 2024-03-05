@@ -9,13 +9,13 @@
     "modules-left": [
       "clock",
       "hyprland/workspaces",
-      "custom/blank-left"
+      "custom/blank"
     ],
     "modules-center": [
       "hyprland/window"
     ],
     "modules-right": [
-      "custom/blank-right",
+      "custom/blank",
       "custom/media",
       "tray",
       "pulseaudio",
@@ -105,11 +105,7 @@
       "on-scroll-down": "pamixer --default-source -d 5 --allow-boost --set-limit 150",
       "scroll-step": 5
     },
-    "custom/blank-right": {
-      "format": " ",
-      "tooltip": false
-    },
-    "custom/blank-left": {
+    "custom/blank": {
       "format": " ",
       "tooltip": false
     },
