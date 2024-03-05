@@ -44,8 +44,18 @@ window#waybar {
   color: #ebbcba;
 }
 
+@keyframes blink {
+    to {
+        color: #e0def4;
+    }
+}
+
 #workspaces button.urgent {
   color: #eb6f92;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 #workspaces button:hover {
