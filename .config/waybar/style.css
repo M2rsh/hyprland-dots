@@ -21,7 +21,7 @@ window#waybar {
 }
 
 #clock {
-  padding-left: 10px;
+  padding-left: 15px;
   padding-right: 10px;
   background-color: #191724;
   color: #f6c177;
@@ -113,7 +113,7 @@ window#waybar {
 #pulseaudio.microphone {
   color: #31748f;
   background-color: #191724;
-  padding-right: 10px;
+  padding-right: 15px;
 }
 
 #pulseaudio.source-muted.microphone {
