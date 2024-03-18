@@ -59,7 +59,7 @@
     },
     "clock": {
       "interval": 1,
-      "format": "<b>{:󰥔 %H:%M 󰃭 %d/%m}</b>",
+      "format": "<b>󰥔 {:%H:%M 󰃭 %d/%m}</b>",
       "tooltip-format": "       <span color='#c4a7e7'>󰥔 {:%T}</span>\n{calendar}",
       "calendar": {
         "mode": "month",
