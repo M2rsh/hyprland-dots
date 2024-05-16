@@ -2,7 +2,7 @@ install_function () {
     yay -S hyprland waybar kitty zsh swww swaylock-effects dunst cpio \
     ttf-jetbrains-mono-nerd ttf-twemoji papirus-icon-theme \
     rofi-lbonn-wayland-git rofi-emoji-abi8 wtype hyprkeys jq wl-clipboard cliphist \
-    hyprpicker waypaper grimblast-git pamixer libcanberra
+    hyprpicker waypaper grimblast-git pamixer libcanberra hyprwayland-scanner
     mv .config/* ~/.config/
     mv .local/* ~/.local/
     hyprpm update
