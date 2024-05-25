@@ -3,7 +3,7 @@
 # Did I steal this? mostly yes (https://github.com/davatorium/rofi/wiki/Script-Launcher)
 
 MAP="$HOME/.config/rofi/powermenu.csv"
-UPTIME=$(uptime -p | sed "s/up/Uptime/" | sed "s/,//" | sed "s/ hours/h/" | sed "s/ minutes/m/")
+UPTIME=$(uptime -p | sed "s/up/Uptime/" | sed "s/,//" | sed "s/ hours/h/" | sed "s/ minutes/m/" | sed "s/ hour/h/" | sed "s/ minute/m/")
 
 cat "$MAP" \
     | cut -d ',' -f 1 \
