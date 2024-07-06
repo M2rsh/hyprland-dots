@@ -173,7 +173,7 @@ hyprpm enable hyprtrails && hyprpm enable csgo-vulkan-fix
 
 For discord theme install Vencord (Read it's ReadME by using modified discord launchers you're breaking discord TOS blah blah blah no one actually got banned use at own risk anyway) you can change or remove the theme using Quick Css in settings > vencord > themes
 
-For other mathing themes check out [Rose Pine Themes](https://rosepinetheme.com/themes/)
+For other matching themes check out [Rose Pine Themes](https://rosepinetheme.com/themes/)
 
 > [!NOTE]
 > You can edit your wallpaper in `waypaper` gui application or `swww` command
