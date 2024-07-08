@@ -20,7 +20,7 @@
 <div align="center">
   
 ### Hyprtrails
-Too lazy to update the gif (Read: Coming soon)
+Too lazy to update the gif (Read: Coming soon (never))
 
 ### Application Launcher
 ![application-launcher](assets/application-launcher.png)
