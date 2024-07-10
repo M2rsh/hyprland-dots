@@ -156,7 +156,7 @@ Left click -> Mute <br/>
 ```bash
 yay -S hyprland waybar kitty zsh swww swaylock-effects dunst cpio \
 ttf-jetbrains-mono-nerd ttf-twemoji papirus-icon-theme \
-rofi-lbonn-wayland-git rofi-emoji-abi8 wtype hyprkeys jq wl-clipboard cliphist \
+rofi-wayland rofi-emoji-abi8 wtype hyprkeys jq wl-clipboard cliphist \
 hyprpicker waypaper grimblast-git pamixer libcanberra
 ```
 2. Add hyprpm (plugin manager) repo 
