@@ -24,7 +24,7 @@ window#waybar {
   padding-left: 15px;
   padding-right: 10px;
   background-color: #191724;
-  color: #f6c177;
+  color: #ebbcba;
 }
 
 #workspaces {
@@ -113,6 +113,7 @@ window#waybar {
 #pulseaudio.microphone {
   color: #31748f;
   background-color: #191724;
+  padding-left: 15px;
   padding-right: 15px;
 }
 
@@ -145,4 +146,12 @@ window#waybar {
   border-left: none;
   border-radius: 0 0 10px 0;
   padding-bottom: 0px;
+}
+
+#network {
+  background-color: #191724;
+  color: #ebbcba;
+  padding-right: 14px;
+  padding-left: 10px;
+  border-right: 1px solid #1f1d2e;
 }
