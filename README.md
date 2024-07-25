@@ -163,9 +163,9 @@ hyprpicker waypaper grimblast-git pamixer libcanberra
 ```bash
 hyprpm update && hyprpm add https://github.com/hyprwm/hyprland-plugins
 ```
-3. Enable plugins
+3. Enable hyprtrails
 ```bash
-hyprpm enable hyprtrails && hyprpm enable csgo-vulkan-fix
+hyprpm enable hyprtrails
 ```
 4. Install oh my zsh in your prefered way
 5. Copy configs

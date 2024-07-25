@@ -8,7 +8,6 @@ install_function () {
     hyprpm update
     hyprpm add https://github.com/hyprwm/hyprland-plugins
     hyprpm enable hyprtrails
-    hyprpm enable csgo-vulkan-fix
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 }
 
