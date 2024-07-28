@@ -2,7 +2,7 @@
 set -o pipefail
 
 SCREENSHOT_DIRECTORY=$HOME/Pictures/Screenshots
-SLURP_ARGS="-d -b #1917248f -B #1917248f -c #c4a7e7 -o"
+export SLURP_ARGS="-d -b #1917248f -B #1917248f -c #c4a7e7 -o"
 
 if [[ ! -d "$SCREENSHOT_DIRECTORY" ]]; then
 	mkdir -p "$SCREENSHOT_DIRECTORY"
