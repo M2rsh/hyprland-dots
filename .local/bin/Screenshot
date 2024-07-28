@@ -2,16 +2,7 @@
 set -o pipefail
 
 SCREENSHOT_DIRECTORY=$HOME/Pictures/Screenshots
-export SLURP_ARGS="-d -b #1917248f -B #1917248f -c #c4a7e7 -o"
-
-case $1 in
-   "active"|"screen"|"output"|"area")
-     ;;
-   *)
-     printf "Not a valid argument\n"
-     printf "Use: active, screen, output or area\n"
-     exit ;;
-esac
+SLURP_ARGS="-d -b #1917248f -B #1917248f -c #c4a7e7 -o"
 
 if [[ ! -d "$SCREENSHOT_DIRECTORY" ]]; then
 	mkdir -p "$SCREENSHOT_DIRECTORY"
