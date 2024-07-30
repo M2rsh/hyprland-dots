@@ -88,7 +88,7 @@ Left click -> Mute <br/>
 | <kbd>SUPER Return</kbd> | exec | kitty  | Open terminal |
 | <kbd>SUPER E</kbd> | exec | dolphin  | Open a file manager |
 | <kbd>SUPER V</kbd> | exec | killall rofi \|\| ~/.config/rofi/clipboard.sh  | Open clipboard |
-| <kbd>SUPER B</kbd> | exec | killall -SIGUSR1 waybar \|\| waybar  | Reload Waybar |
+| <kbd>SUPER B</kbd> | exec | killall waybar \|\| waybar  | Reload Waybar |
 | <kbd>SUPER F1</kbd> | exec | killall rofi \|\| ~/.config/rofi/keybinds.sh  | Show keybinds menu |
 | <kbd>SUPER D</kbd> | exec | killall rofi \|\| ~/.config/rofi/launcher.sh  | Application launcher |
 | <kbd>SUPER period</kbd> | exec | killall rofi \|\| ~/.config/rofi/emoji.sh  | Emoji picker |
@@ -133,6 +133,7 @@ Left click -> Mute <br/>
 | <kbd>SUPER SHIFT S</kbd> | exec | ~/.local/bin/Screenshot area  | Take a screenshot of an area |
 | <kbd>SUPER SHIFT  Print</kbd> | exec | ~/.local/bin/Screenshot screen  | Take a screenshot of every screen |
 | <kbd>SUPER SHIFT C</kbd> | exec | hyprpicker -a  | Colour picker |
+
 
 </details>
 
