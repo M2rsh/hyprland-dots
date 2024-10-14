@@ -129,7 +129,7 @@
       "tooltip": false
     },
     "custom/media": {
-      "format": "{icon} {}",
+      "format": "{icon} {0}",
       "return-type": "json",
       "format-icons": {
         "Paused": "󰐊",
