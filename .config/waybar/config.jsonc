@@ -61,9 +61,9 @@
     "network": {
         "tooltip": true,
         "format-wifi": "{icon}",
-        "format-ethernet": "󰈀",
+        "format-ethernet": "󰈀  {ipaddr}",
         "tooltip-format": "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>",
-        "format-linked": "󰈀 {ifname} (No IP)",
+        "format-linked": "󰈀  {ifname} (No IP)",
         "format-disconnected": "󰤭 ",
         "tooltip-format-disconnected": "Disconnected",
         "format-alt": "<span foreground='#31748f'>󰇚 {bandwidthDownBytes}</span> <span foreground='#9ccfd8'>󰕒 {bandwidthUpBytes}</span>",
@@ -105,6 +105,7 @@
       "on-click": "pamixer -t",
       "on-scroll-up": "pamixer -i 5 --allow-boost --set-limit 150 && canberra-gtk-play -i audio-volume-change",
       "on-scroll-down": "pamixer -d 5 --allow-boost --set-limit 150 && canberra-gtk-play -i audio-volume-change",
+      "on-click-middle": "",
       "scroll-step": 5,
       "format-icons": {
         "default": [

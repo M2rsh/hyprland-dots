@@ -1,4 +1,0 @@
-#!/bin/bash
-
-cat /tmp/hypr/$(ls -t /tmp/hypr/ | head -n 1)/hyprland.log || \
-cat /tmp/hypr/$(ls -t /tmp/hypr/ | head -n 2 | tail -n 1)/hyprland.log

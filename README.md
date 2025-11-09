@@ -1,5 +1,3 @@
-I'm moving to sway
-
 <div align="center">
 
 # My Hyprland dotfiles
@@ -7,12 +5,13 @@ I'm moving to sway
 </div>
 
 ### Work in Progress screenshots may be a bit different
+Laptops are not fully supported (No battery, WiFi, bluetooth etc. in waybar)
 
 - [x] [Hyprland](https://github.com/hyprwm/Hyprland)
 - [x] [Waybar](https://github.com/Alexays/Waybar)
-- [x] [Swaylock-effects](https://github.com/mortie/swaylock-effects)
+- [x] [Hyprlock](https://github.com/hyprwm/hyprlock/)
 - [x] [Kitty](https://sw.kovidgoyal.net/kitty/)
-- [x] [Rofi](https://github.com/lbonn/rofi)
+- [x] [Rofi](https://github.com/davatorium/rofi)
 - [x] [Dunst](https://github.com/dunst-project/dunst)
 
 [Go to installation](#installation)
@@ -20,7 +19,7 @@ I'm moving to sway
 <details open>
 <summary>Showcase</summary>
 <div align="center">
-  
+
 ### Hyprtrails
 Too lazy to update the gif (Read: Coming soon (never))
 
@@ -130,12 +129,11 @@ Left click -> Mute <br/>
 | <kbd>XF86AudioPlay</kbd> | exec | playerctl play-pause  | Play/Pause button on your keyboard |
 | <kbd>XF86AudioNext</kbd> | exec | playerctl next  | Next button on your keyboard |
 | <kbd>XF86AudioPrev</kbd> | exec | playerctl previous  | Previous button on your keyboard |
-| <kbd>Print</kbd> | exec | ~/.local/bin/Screenshot output  | Take a screenshot of your current screen |
-| <kbd>SUPER  Print</kbd> | exec | ~/.local/bin/Screenshot active  | Take a screenshot of your active window |
-| <kbd>SUPER SHIFT S</kbd> | exec | ~/.local/bin/Screenshot area  | Take a screenshot of an area |
-| <kbd>SUPER SHIFT  Print</kbd> | exec | ~/.local/bin/Screenshot screen  | Take a screenshot of every screen |
+| <kbd>Print</kbd> | exec | hyprshot -m active -m output -o ~/Pictures/Screenshots/ |  |
+| <kbd>SUPER Print</kbd> | exec | hyprshot -m active -m window -o ~/Pictures/Screenshots/ |  |
+| <kbd>SUPER SHIFT S</kbd> | exec | hyprshot -m region -o ~/Pictures/Screenshots/ |  |
+| <kbd>SUPER SHIFT Print</kbd> | exec | hyprshot -m output -o ~/Pictures/Screenshots/ |  |
 | <kbd>SUPER SHIFT C</kbd> | exec | hyprpicker -a  | Colour picker |
-
 
 </details>
 
@@ -143,8 +141,8 @@ Left click -> Mute <br/>
 
 ## Automatic
 > [!CAUTION]
-> Arch/[Yay](https://github.com/Jguer/yay) only
-> 
+> Arch (Pacman) only. Automatic installation of AUR packages is currently not implemented.
+>
 > I do not recommend running this with pre existing configs. If any exist move them to a backup folder first
 
 1. Run
@@ -157,20 +155,13 @@ Left click -> Mute <br/>
 
 1. Install dependencies and software
 ```bash
-yay -S hyprland waybar kitty zsh swww swaylock-effects dunst cpio \
-ttf-jetbrains-mono-nerd ttf-twemoji papirus-icon-theme \
-rofi-wayland rofi-emoji-abi8 wtype hyprkeys jq wl-clipboard cliphist \
-hyprpicker waypaper grimblast-git pamixer libcanberra
+sudo pacman -Sy  hyprland hyprlock kitty fish waybar dunst  \
+                swww rofi rofi-emoji jq ttf-jetbrains-mono-nerd \
+                cliphist wl-clipboard wtype pamixer  \
+                hyprpicker pavucontrol  \
+                papirus-icon-theme && \
+paru -S ttf-twemoji qt6ct-kde
 ```
-2. Add hyprpm (plugin manager) repo 
-```bash
-hyprpm update && hyprpm add https://github.com/hyprwm/hyprland-plugins
-```
-3. Enable hyprtrails
-```bash
-hyprpm enable hyprtrails
-```
-4. Install oh my zsh in your prefered way
 5. Copy configs
 6. Edit your monitor/keyboard configuration in `~/.config/hypr/hyprland.conf` Also edit env variables (comment or delete nvidia) in `~/.config/hypr/hyprland.conf` if you're running on AMD GPU but I'm gonna be honest I have no idea whether it has any acutal impact
 
@@ -179,7 +170,7 @@ For discord theme install Vencord (Read it's ReadME by using modified discord la
 For other matching themes check out [Rose Pine Themes](https://rosepinetheme.com/themes/)
 
 > [!NOTE]
-> You can edit your wallpaper in `waypaper` gui application or `swww` command
+> You can edit your wallpaper via the 'swww img' command
 
 [Colour scheme](https://rosepinetheme.com/)
 

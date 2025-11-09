@@ -1,14 +1,15 @@
+// TODO: Auto backup
+
+aur = [ "ttf-twemoji", "qt6ct-kde" ]
+
 install_function () {
-    yay -S hyprland waybar kitty zsh swww swaylock-effects dunst cpio \
-    ttf-jetbrains-mono-nerd ttf-twemoji papirus-icon-theme \
-    rofi-wayland rofi-emoji-abi8 wtype hyprkeys jq wl-clipboard cliphist \
-    hyprpicker waypaper grimblast-git pamixer libcanberra hyprwayland-scanner
+    sudo pacman -Sy  hyprland hyprlock kitty fish waybar dunst  \
+                    swww rofi rofi-emoji jq ttf-jetbrains-mono-nerd \
+                    cliphist wl-clipboard wtype pamixer  \
+                    hyprpicker pavucontrol  \
+                    papirus-icon-theme
     mv .config/* ~/.config/
     mv .local/* ~/.local/
-    hyprpm update
-    hyprpm add https://github.com/hyprwm/hyprland-plugins
-    hyprpm enable hyprtrails
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 }
 
 echo "It is not recommended to run with pre existing configs"
