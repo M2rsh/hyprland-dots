@@ -40,7 +40,7 @@ if [ "${answer,,}" != "y"] ;then
     exit
 fi
 
-#install_function
+install_function
 if check_dependencies ; then
     get_aur
 else
