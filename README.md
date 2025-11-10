@@ -141,7 +141,7 @@ Left click -> Mute <br/>
 
 ## Automatic
 > [!CAUTION]
-> Arch (Pacman) only. Automatic installation of AUR packages is currently not implemented.
+> Arch (Pacman) only
 >
 > I do not recommend running this with pre existing configs. If any exist move them to a backup folder first
 
@@ -163,9 +163,8 @@ sudo pacman -Sy  hyprland hyprlock kitty fish waybar dunst  \
 paru -S ttf-twemoji qt6ct-kde
 ```
 2. Copy configs
-3. Edit your monitor/keyboard configuration in `~/.config/hypr/hyprland.conf` Also edit env variables (comment or delete nvidia) in `~/.config/hypr/hyprland.conf` if you're running on AMD GPU but I'm gonna be honest I have no idea whether it has any acutal impact
-
-For discord theme install Vencord (Read it's ReadME by using modified discord launchers you're breaking discord TOS blah blah blah no one actually got banned use at own risk anyway) you can change or remove the theme using Quick Css in settings > vencord > themes
+3. Edit your monitor/keyboard configuration in `~/.config/hypr/hyprland.conf`
+4. If you're running on an AMD GPU edit env variables (delete nvidia) in `~/.config/hypr/hyprland.conf`
 
 For other matching themes check out [Rose Pine Themes](https://rosepinetheme.com/themes/)
 
